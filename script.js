@@ -92,7 +92,7 @@ sub.addEventListener('click',e=>{
 });
 //sets icon for the marker
 var myIcon = L.icon({
-    iconUrl: 'img/icon.png',
+    iconUrl: './icon.png',
     iconSize: [40, 40],
     iconAnchor: [20, 40],
 });
