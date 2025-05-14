@@ -1,0 +1,214 @@
+hr {
+  border: black;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+h1,
+p,
+h3 {
+  margin: 0vw 0.5vw 0vw 0.5vw;
+}
+html,
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#mainWea {
+  font-size: 3.5vw;
+  font-family: "Quick End Jerk";
+}
+#resetLoc,
+#subInp {
+  float: left;
+  margin: 0.5vw 0vw 0.5vw 0.5vw;
+  font-size: 0.9vw;
+  font-family: "Quick End Jerk", sans-serif;
+  background-color: #bb6e0859;
+  border-width: 1.25px;
+}
+#resetLoc:active,
+#subInp:active {
+  background-color: #b36908a1;
+  color: rgb(255, 255, 255);
+}
+#resetLoc:hover,
+#subInp:hover {
+  background-color: #b36908a1;
+}
+#coords {
+  margin-top: 0.25vw;
+  font-size: 1vw;
+  float: right;
+}
+#inputC {
+  float: left;
+  margin-top: -0.25vw;
+}
+#InCord {
+  margin-bottom: 1vm;
+}
+#cInp {
+  font-size: 0.9vw;
+  margin: 0.5vw 0vw 0vw 0.5vw;
+  font-family: "Anonymous", sans-serif;
+  background-color: #f8ce96da;
+  border-width: 1.2px;
+}
+#cInp1 {
+  font-size: 1.1vw;
+  margin: 0vw 0vw 0vw 0.5vw;
+  font-family: "Anonymous", sans-serif;
+}
+
+#ti {
+  font-size: 1.2vw;
+  float: left;
+  margin-top: -0.5vw;
+  margin-bottom: 0.5vw;
+}
+#cont {
+  font-size: 5vw;
+  font-family: "Quick End Jerk";
+}
+#timeP,
+#timeL {
+  font-size: 3.25vw;
+  float: right;
+}
+#mapType {
+  float: right;
+  font-size: 1.5vw;
+  font-family: "Anonymous", sans-serif;
+  background-color: #f8ce96da;
+}
+#mapType:hover,
+#mapType:active {
+  font-family: "Anonymous", sans-serif;
+  background-color: #ecbe81fa;
+}
+#mapType2 {
+  float: right;
+  font-size: 1.5vw;
+  font-family: "Anonymous", sans-serif;
+  background-color: #ffffff00;
+}
+#lab {
+  float: right;
+  margin-bottom: 1vw;
+}
+#desWea {
+  font-size: 1.1vw;
+  float: right;
+}
+#rainLh {
+  font-size: 1.1vw;
+  float: right;
+}
+#windD2 {
+  font-size: 1.2vw;
+  float: right;
+}
+#mt {
+  float: right;
+}
+#windD1 {
+  font-size: 3.5vw;
+  font-family: "Quick End Jerk", sans-serif;
+  float: right;
+}
+#tDiff {
+  font-size: 0.9vw;
+  float: left;
+}
+#humid {
+  font-size: 0.775vw;
+  float: right;
+  margin-top: 0.25vw;
+}
+#temp {
+  font-size: 3vw;
+  margin-top: 0.5vw;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#mapid {
+  flex: 7;
+}
+#ui {
+  flex: 3;
+  border-top: 10 solid black;
+  border-left: 0.5px solid black;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, #f8ce96da, #da8618da);
+  font-family: "Anonymous", sans-serif;
+}
+@media (max-width: 650px) {
+  #mainWea {
+    font-size: 6vw;
+  }
+  #resetLoc,
+  #subInp {
+    font-size: 2vw;
+    padding: 0;
+  }
+  #coords {
+    font-size: 2vw;
+  }
+  #cInp {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-top: -4vw;
+    width: 100%;
+    padding: 0;
+  }
+  #cInp1 {
+    font-size: 2vw;
+  }
+
+  #ti {
+    font-size: 2vw;
+  }
+  #cont {
+    font-size: 9vw;
+  }
+  #timeP,
+  #timeL {
+    font-size: 4.1vw;
+  }
+  #mapType {
+    font-size: 3vw;
+  }
+  #mapType2 {
+    font-size: 2vw;
+  }
+  #desWea {
+    font-size: 1.7vw;
+    font-weight: bold;
+  }
+  #rainLh {
+    font-size: 1.6vw;
+  }
+  #windD2 {
+    font-size: 1.6vw;
+    font-weight: bold;
+  }
+  #windD1 {
+    font-size: 3.5vw;
+  }
+  #tDiff {
+    font-size: 2.1vw;
+  }
+  #humid {
+    font-size: 1.7vw;
+  }
+  #temp {
+    font-size: 6vw;
+  }
+}
