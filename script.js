@@ -382,7 +382,7 @@ navigator.geolocation.getCurrentPosition(data=>{
     getData(loc,true);
     
 });
-fetch("./database/countries.json").then(response=>response.json()).then(json=>{
+fetch("./countries.json").then(response=>response.json()).then(json=>{
     countries=json;
     countries.forEach(element => {
         var ele = document.createElement("option");
@@ -391,7 +391,7 @@ fetch("./database/countries.json").then(response=>response.json()).then(json=>{
     });
     
 });
-fetch("./database/cities.json").then(response=>response.json()).then(json=>{
+fetch("./cities.json").then(response=>response.json()).then(json=>{
     cities=json;
     cities.forEach(element => {
         var ele = document.createElement("option");
